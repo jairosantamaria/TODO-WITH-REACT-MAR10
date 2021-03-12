@@ -1,13 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background:(linear-gradient(45deg, snow 2px, #f0f0f0 1px));
+    background-size:(5px 5px);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-box {
+    background-color: white;
+}
+.list-group-item .btn-secondary {
+    display: none;
+}
 
-*/
+.list-group-item:hover .btn-secondary {
+    display: inline-block;
+}
